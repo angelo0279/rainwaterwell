@@ -98,7 +98,7 @@ sensor:
     - calibrate_linear:
        - 0.20 -> 1.80
        - 100.0 -> 0.0
-         # the well is for me 180cm deep from the sensor and at the top 20cm fro mthe sensor
+         # the well is for me 180cm deep from the sensor and at the top 20cm from the sensor
    on_value:
     then:
      - sensor.template.publish:
